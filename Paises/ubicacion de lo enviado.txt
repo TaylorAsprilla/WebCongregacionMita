@@ -1,0 +1,5 @@
+la carpeta varios va dentro de la carpeta image, para que 
+sustituyas la que esta con esta.
+
+los demas archivos los tiras junto con todos los html para
+que sustituyan los que estan.

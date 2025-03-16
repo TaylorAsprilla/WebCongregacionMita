@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sozialarbeit</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../Pagina_Principal/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../Pagina_Principal/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../Pagina_Principal/favicon/favicon-16x16.png">
+  <link rel="manifest" href="Pagina_Principal/favicon/site.webmanifest">
+  <!-- Archico CSS principal -->
+  <link rel="stylesheet" href="./ObraSocial.css">
+  <!-- Para iconos de Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Libreria Lightbox para las galerias de imagenes -->
+  <link rel="stylesheet" href="../lightbox/lightbox.css">
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y8B8LKVH7D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y8B8LKVH7D');
+</script>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <div class="container">
+      <input type="checkbox" name="" id="check">
+
+      <div class="logo-container">
+        <a href="../Pagina_Principal/index.html" class="logo"><img src="../Pagina_Principal/images/logo.png">
+          Mita-Gemeinde </a>
+      </div>
+
+      <div class="nav-btn">
+        <div class="nav-links">
+          <ul>
+            <li class="nav-link" style="--i: .6s">
+              <a href="../Doctrina/doctrina.html">Über uns?</a>
+            </li>
+            <li class="nav-link" style="--i: .86s">
+              <a href="../Lideres_Espirituales/LideresEspirituales.html"> Spirituelle Führer</a>
+              <!--<div class="dropdown">
+              <ul>
+                <li class="dropdown-link">
+                  <a href="../Lideres_Espirituales/LideresEspirituales.html">Juanita García Peraza</a>
+                </li>
+                <li class="dropdown-link">
+                  <a href="../Lideres_Espirituales/LideresEspirituales.html">Teófilo Vargas Seín</a>
+                </li>
+                <li class="dropdown-link">
+                  <a href="../Lideres_Espirituales/LideresEspirituales.html">Rosinín Rodríguez Pérez</a>
+                </li>
+              </ul>
+            </div>-->
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html">Musik <i
+                  class="fa-solid fa-caret-down"></i>
+              </a>
+              <div class="dropdown">
+                <ul>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#bv">Mita-Band</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#am">Musikalische Akademien</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#aa">Gruppierung von Harfen</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#ac">String-Gruppierung</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#acf">Gruppierung von gestrichenen
+                      Saiten</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#cm">Mita-Chor</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="../Paises/carrusel.html">Länder</a>
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="#">Mehr von uns<i class="fa-solid fa-caret-down i4"></i></a>
+              <div class="dropdown">
+                <ul>
+                  <li class="dropdown-link">
+                    <a href="../Templo principal/templo.html">Haupttempel</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Cuerpos_Ministeriales/CuerposMinisteriales.html">Ministerielle Gremien</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Obra_Social/ObraSocial.html">Sozialarbeit</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Niñez_y_Juventud/NiñezYJuventud.html">Kindheit und Jugend</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Eventos_Historicos/EventosHistoricos.html">Historische Ereignisse</a>
+                  </li>
+
+                  <li class="dropdown-link">
+                    <a href="../Contacto/contacto.html">Kontaktiere uns</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="#"><i class="fa-solid fa-earth-americas" style="font-size: 20px; padding-top: 10px; "></i> <i
+                  class="fa-solid fa-caret-down i5"></i></a>
+              <div class="dropdown dropdown-idiomas">
+                <ul>
+                  <li class="dropdown-link">
+                    <a href="../../index.html">Español</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../ingles/Pagina_Principal/index.html">English</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../italiano/Pagina_Principal/index.html">Italiano</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="#">Deutsch</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../Portugues/Pagina_Principal/index.html">Português</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../frances/Pagina_Principal/index.html">Français</a>
+                  </li>
+                  <!--<li class="dropdown-link">
+                    <a href="#">日本</a>
+                  </li> -->
+                  <li class="dropdown-link">
+                    <a href="../../mandarin/Pagina_Principal/index.html">中国人</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hamburger-menu-container">
+        <div class="hamburger-menu">
+          <div></div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Contenido Princial -->
+
+  <div class="title">
+    <h1>Sozialarbeit</h1>
+  </div>
+
+  <section class="about" id="ccm">
+    <div class="content">
+      <div class="text">
+        <h1>Mita-Gemeinde-College</h1>
+        <h5>1981 gegründet</h5>
+        <P> Das Congregación Mita College ist von der Middle State Association akkreditiert. Es bietet Dienstleistungen
+          von Kindergarten und unterrichtet vom Vorkindergarten bis zur zwölften Klasse. auf höchstem Niveau Es hat das
+          Handels und Weiterbildungsprogramm. Er wurde national und international ausgezeichnet international für sein
+          Sportprogramm sowie bei Redewettbewerben, Wettbewerben Intellektuelle und Talente der Honor Society, unter
+          anderem.</P>
+
+        <p>Rosinín, weihte den neuen Kindergarten ein, der in Kürze in unserem College eröffnet wird. Wir danken
+          Rosinín, den Mitgliedern des Vorstands, der Verwaltung, der Fakultät und den Mitarbeitern dafür, dass sie
+          diesen Traum wahr werden lassen.</p>
+      </div>
+      <div class="bandCarousel">
+        <a href="../../Fotos/Colegio/85.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img style="border-radius: 5px;" src="../../Fotos/Colegio/85.jpg">
+        </a>
+      </div>
+      <h1 class="galleryH1">Galerie</h1>
+      <div class="galleryInfo">Berühren Sie das Foto, um mehr zu sehen</div>
+      <div class="gallery">
+        <a href="../../Fotos/Colegio/86.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/86.jpg">
+        </a>
+        <a href="../../Fotos/Colegio/87.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/87.jpg">
+        </a>
+        <a href="../../Fotos/Colegio/102.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/102.jpg">
+        </a>
+        <a href="../../Fotos/Colegio/n1.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/n1.jpeg">
+        </a>
+        <a href="../../Fotos/Colegio/n2.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../Fotos/Colegio/n2.jpeg">
+        </a>
+        <a href="../../Fotos/Colegio/103.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/103.jpg">
+        </a>
+        <a href="../../Fotos/Colegio/104.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/104.jpg">
+        </a>
+        <a href="../../Fotos/Colegio/105.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/105.jpg">
+        </a>
+        <a href="../../Fotos/Colegio/106.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/106.jpg">
+        </a>
+        <a href="../../Fotos/Colegio/107.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/107.jpg">
+        </a>
+        <a href="../../Fotos/Colegio/108.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/108.jpg">
+        </a>
+      </div>
+      <div class="SMLinkContainer" id="SMLinkContainerColegio">
+        <div class="SMLinkContainer-Sub">
+          <a href="https://www.facebook.com/profile.php?id=100022213402925" target="_blank" class="SMLink"><i
+              class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/ColegioMita" target="_blank" class="SMLink"><i
+              class="fa-brands fa-square-twitter"></i></a>
+          <a href="https://www.instagram.com/colegiomita/" target="_blank" class="SMLink"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@colegiocongregacionmita8739" target="_blank" class="SMLink"><i
+              class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider-icon" id="dividerColegio">
+    <p><img src="./img/logo.png" /></p>
+  </div>
+
+  <section class="about" id="aboutEgida">
+    <div class="content">
+      <div class="bandCarousel">
+        <a href="../../Fotos/20.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img style="border-radius: 5px" src="../../Fotos/20.jpg">
+        </a>
+      </div>
+      <div class="text">
+        <h1>Aegis und Institution El Paraíso</h1>
+        <h5>1985 gegründet</h5>
+        <P>Die Aegis und Institution El Paraíso wurde nach den Gesetzen des Freistaats gegründet Mitarbeiter von Puerto
+          Ri co. Als gemeinnützige Einrichtung entsteht sie aus der großen Not heraus bieten spezialisierte
+          Dienstleistungen für pflegebedürftige ältere Menschen an. Konto mit Pflegedienst, Ambulanzen, Sozialarbeit,
+          Seelsorge unter anderem. </P>
+      </div>
+      <h1 class="galleryH1">Galerie</h1>
+      <div class="galleryInfo">Berühren Sie das Foto, um mehr zu sehen</div>
+      <div class="gallery">
+        <a href="../../Fotos/Egida/106.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/106.jpg">
+        </a>
+        <a href="../../Fotos/Egida/107.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/107.jpg">
+        </a>
+        <a href="../../Fotos/Egida/108.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/108.jpg">
+        </a>
+        <a href="../../Fotos/Egida/109.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/109.jpg">
+        </a>
+        <a href="../../Fotos/Egida/110.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/110.jpg">
+        </a>
+        <a href="../../Fotos/Egida/111.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/111.jpg">
+        </a>
+        <a href="../../Fotos/Egida/112.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/112.jpg">
+        </a>
+        <a href="../../Fotos/Egida/113.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/113.jpg">
+        </a>
+        <a href="../../Fotos/Egida/114.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/114.jpg">
+        </a>
+        <a href="../../Fotos/Egida/115.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/115.jpg">
+        </a>
+        <a href="../../Fotos/Egida/116.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/116.jpg">
+        </a>
+      </div>
+      <div class="SMLinkContainer" id="SMLinkContainerEgida">
+        <a href="https://www.facebook.com/egidaelparaiso" target="_blank" class="SMLink"><i
+            class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider-icon" id="dividerEgida">
+    <p><img src="./img/logo.png" /></p>
+  </div>
+
+  <br> <br>
+
+  <section class="about" id="oots">
+    <div class="content">
+      <div class="text">
+        <h1>Orientierungs und Sozialarbeitsamt</h1>
+        <h5>1985 gegründet</h5>
+        <P>Das Büro für Orientierung und Sozialarbeit der Mita Gemeinde bietet Dienstleistungen an Direkte soziale
+          Dienste für die Gemeinschaft im Allgemeinen (Kinder, Jugendliche, Erwachsene und ältere Menschen) durch die
+          Fallarbeit. Sie ergibt sich aus dem großen Bedürfnis, in unserer Stadt die ganzheitliche Entwicklung der
+          Individuum, da wir verstehen, dass der Mensch eine bio psycho sozial kulturell spirituelle Einheit ist. Es hat
+          kollegiale und lizenzierte Sozialarbeite r, einen klinischen Psychologen, einen Therapeuten Bildung und eine
+          Abteilung des Historischen Archivs, wo die gesamte Geschichte der Kongregation aufbewahrt wird Mita. Die
+          Dienste, die der Community angeboten werden, sind im Allgemeinen kostenlos.</P>
+      </div>
+      <div class="bandCarousel">
+        <a href="../../Fotos/21.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/21.jpg" id="imgOficina">
+        </a>
+      </div>
+
+      <h1 class="galleryH1">Galerie</h1>
+      <div class="galleryInfo">Berühren Sie das Foto, um mehr zu sehen</div>
+      <div class="gallery">
+        <a href="../../Fotos/Oficina/o1.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Oficina/o1.jpeg">
+        </a>
+        <a href="../../Fotos/Oficina/o2.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Oficina/o2.jpeg">
+        </a>
+        <a href="../../Fotos/Oficina/o3.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Oficina/o3.jpeg">
+        </a>
+        <a href="../../Fotos/Oficina/o4.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Oficina/o4.jpeg">
+        </a>
+        <a href="../../Fotos/Oficina/o5.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Oficina/o5.jpeg">
+        </a>
+        <a href="../../Fotos/Oficina/o6.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Oficina/o6.jpeg">
+        </a>
+      </div>
+      <div class="SMLinkContainer" id="SMLinkContainerColegio">
+        <div class="SMLinkContainer-Sub">
+          <a href="https://www.facebook.com/profile.php?id=100022213402925" target="_blank" class="SMLink"><i
+              class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/ColegioMita" target="_blank" class="SMLink"><i
+              class="fa-brands fa-square-twitter"></i></a>
+          <a href="https://www.instagram.com/colegiomita/" target="_blank" class="SMLink"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@colegiocongregacionmita8739" target="_blank" class="SMLink"><i
+              class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br> <br> <br> <br>
+
+  <div class="divider-icon" id="aboutMemorial">
+    <p><img src="./img/logo.png" /></p>
+  </div>
+
+  <section class="about" id="memorial">
+    <div class="content">
+      <div class="text">
+        <h1>Der Brothers Memorial Park, Inc.</h1>
+        <h5>2010 gegründet</h5>
+        <P>Der Los Hermanos Memorial Park, Inc. ist eine Einrichtung der Mita Congregation, Inc. Der Zweck der
+          Kongregation besteht darin, durch den Betrieb dieses Friedhofs ihren Gemeindemitgliedern die Möglichkeit zu
+          bieten, eine christliche Beerdigung gemäß den biblischen Vorschriften zu erhalten. Es verfügt über alle
+          staatlichen Genehmigungen für seinen Betrieb und verfügt über ausreichend Parkplätze, eine Kapelle für
+          Gottesdienste, Gartenbereiche, Nischen und Gräber.</P>
+      </div>
+      <div class="bandCarousel">
+        <a href="../../Fotos/memorialpark.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img style="width: 500px; border-radius: 5px;" src="../../Fotos/memorialpark.jpeg" id="imgOficina">
+        </a>
+      </div>
+
+      <h1 class="galleryH1">Galerie</h1>
+      <div class="galleryInfo">Berühren Sie das Foto, um mehr zu sehen</div>
+      <div class="gallery">
+        <a href="../../Fotos/Memorial Park/m1.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Memorial Park/m1.jpeg">
+        </a>
+        <a href="../../Fotos/Memorial Park/m2.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Memorial Park/m2.jpeg">
+        </a>
+        <a href="../../Fotos/Memorial Park/m3.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Memorial Park/m3.jpeg">
+        </a>
+        <a href="../../Fotos/Memorial Park/m4.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Memorial Park/m4.jpeg">
+        </a>
+        <a href="../../Fotos/Memorial Park/m5.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Memorial Park/m5.jpeg">
+        </a>
+        <a href="../../Fotos/Memorial Park/m6.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Memorial Park/m6.jpeg">
+        </a>
+        <a href="../../Fotos/Memorial Park/m7.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Memorial Park/m7.jpeg">
+        </a>
+      </div>
+
+      <div class="SMLinkContainer" id="SMLinkContainerColegio">
+        <div class="SMLinkContainer-Sub">
+          <a href="https://www.facebook.com/LosHermanosMemorialPark" target="_blank" class="SMLink"><i
+              class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="socialMediaIcons">
+      <div class="wrapper">
+        <a href="https://www.facebook.com/CongregacionMita" target="_blank">
+          <div class="button">
+            <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+            <span>Facebook</span>
+          </div>
+        </a>
+
+        <a href="https://www.youtube.com/@CongregacionMitaInc/videos" target="_blank">
+          <div class="button">
+            <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+            <span>Youtube</span>
+          </div>
+        </a>
+
+        <a href="mailto:oots@congregacionmita.org">
+          <div class="button">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <span>Contacto</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="divider-icon" id="dividerIconFooter">
+      <p><img src="./img/logo.png" /></p>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Gemeinde Mita Inc. Copyright © 2025 Alle Rechte vorbehalten. Geschäftsbedingungen</p>
+    </div>
+  </footer>
+
+  <!-- Para los iconos -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Script -->
+  <script src="./ObraSocial.js"></script>
+  <script src="../lightbox/lightbox-plus-jquery.js"></script>
+</body>
+
+</html>

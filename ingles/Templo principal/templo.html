@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Main Temple</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../Pagina_Principal/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../Pagina_Principal/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../Pagina_Principal/favicon/favicon-16x16.png">
+  <link rel="manifest" href="Pagina_Principal/favicon/site.webmanifest">
+  <!-- CSS stylesheet Link -->
+  <link rel="stylesheet" href="templo.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
+  <!-- Para iconos de Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Libreria Lightbox para las galerias de imagenes -->
+  <link rel="stylesheet" href="../lightbox/lightbox.css">
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y8B8LKVH7D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y8B8LKVH7D');
+</script>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+      <div class="container">
+        <input type="checkbox" name="" id="check">
+  
+        <div class="logo-container">
+          <a href="../Pagina_Principal/index.html" class="logo"><img src="../Pagina_Principal/images/logo.png"> Mita Congregation </a>
+        </div>
+  
+        <div class="nav-btn">
+          <div class="nav-links">
+            <ul>
+              <li class="nav-link" style="--i: .6s">
+                <a href="../Doctrina/doctrina.html">About Us</a>
+              </li>
+              <li class="nav-link" style="--i: .86s">
+                <a href="../Lideres_Espirituales/LideresEspirituales.html"> Spiritual Leaders</a>
+                <!--<div class="dropdown">
+                  <ul>
+                    <li class="dropdown-link">
+                      <a href="../Lideres_Espirituales/LideresEspirituales.html">Juanita García Peraza</a>
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="../Lideres_Espirituales/LideresEspirituales.html">Teófilo Vargas Seín</a>
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="../Lideres_Espirituales/LideresEspirituales.html">Rosinín Rodríguez Pérez</a>
+                    </li>
+                  </ul>
+                </div>-->
+              </li>
+              <li class="nav-link" style="--i: 1.1s">
+                <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html">Music <i
+                    class="fa-solid fa-caret-down"></i></a>
+                <div class="dropdown">
+                  <ul>
+                    <li class="dropdown-link">
+                      <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#bv">Mita Band</a>
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#am">Musical Academies</a>
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#aa">Harp Ensemble</a>
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#ac">String Ensemble</a>
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#acf">Rubbed Strings Ensemble</a>
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#cm"> Mita Choir</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-link" style="--i: 1.1s">
+                <a href="../Paises/carrusel.html">Countries</a>
+              </li>
+              <li class="nav-link" style="--i: 1.1s">
+                <a href="#">More of Us <i class="fa-solid fa-caret-down i4"></i></a>
+                <div class="dropdown">
+                  <ul>
+                    <li class="dropdown-link">
+                      <a href="../Templo principal/templo.html">Main Temple</a>
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="../Cuerpos_Ministeriales/CuerposMinisteriales.html">Ministerial Groups</a>
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="../Obra_Social/ObraSocial.html">Social Work</a>
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="../Niñez_y_Juventud/NiñezYJuventud.html">Children and Youth</a>
+                    </li>
+                    <li class="dropdown-link">
+                      <a href="../Eventos_Historicos/EventosHistoricos.html">Historical Events</a>
+                    </li>
+  
+                    <li class="dropdown-link">
+                      <a href="../Contacto/contacto.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-link" style="--i: 1.1s">
+                <a href="#"><i class="fa-solid fa-earth-americas" style="font-size: 20px; padding-top: 10px; "></i> <i
+                    class="fa-solid fa-caret-down i5"></i></a>
+                <div class="dropdown dropdown-idiomas">
+                  <ul>
+                    <li class="dropdown-link">
+                    <a href="../../index.html">Español</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="#">English</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../italiano/Pagina_Principal/index.html">Italiano</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../aleman/Pagina_Principal/index.html">Deutsch</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../Portugues/Pagina_Principal/index.html">Português</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../frances/Pagina_Principal/index.html">Français</a>
+                  </li>
+                  <!--<li class="dropdown-link">
+                    <a href="#">日本</a> -->
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../mandarin/Pagina_Principal/index.html">中国人</a>
+                  </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="hamburger-menu-container">
+          <div class="hamburger-menu">
+            <div></div>
+          </div>
+        </div>
+  
+      </div>
+    </header>
+
+<div class="container-doctrina">
+  <h1>Main Temple</h1>
+  <h3>Located at Calle Duarte #203 (Puerto Rico)</h3>
+
+  <br>
+
+  <a href="../../Templo principal/images/1.jpeg" data-lightbox="models" data-title="
+Previous Left - Next Right">
+    <img class="templo-img" src="../../Templo principal/images/1.jpeg" alt="">
+  </a>
+  <a href="../../Templo principal/images/2.png" data-lightbox="models" data-title="
+Previous Left - Next Right">
+    <img class="templo-img2" src="../../Templo principal/images/2.png" alt="">
+  </a>
+  <p class="mensj">
+    The growth and expansion of the work of Mita made it necessary to build a new structure to house
+    the thousands of faithful This new temple —inaugurated in November 1990— was in charge of the firm Montilla &
+    Látimer and has capacity for more than 6,000 people inside. Its structure is neoclassical and does not pass
+    unnoticed by those who pass through Hato Rey. Just a few steps from the temple opened in 1960, the new temple
+    It is located at Calle Duarte #203. It has:
+  </p>
+
+  <p class="listas mensj">
+    <b>•</b> Air conditioner <br>
+    <b>•</b> Elevators up to the fifth level<br>
+    <b>•</b> Reclining cushioned chairs <br>
+    <b>•</b> Modern acoustic, lighting and audiovisual facilities <br>
+    <b>•</b> Restrooms and ramps for wheelchairs<br>
+    <b>•</b> Nursery for the care of children during religious services<br>
+    <b>•</b> Emergency exits<br>
+    <b>•</b> First aid office<br>
+    <b>•</b> Impressive stained glass windows depicting the star of Bethlehem and the dove, symbol of the Holy Spirit of
+    God<br>
+  </p>
+
+  <br>
+
+  <div class="hr hrObra">
+    <div class="hr-inner"></div>
+    <div class="hr-inner"></div>
+    <div class="hr-inner"></div>
+    <div class="hr-inner"></div>
+  </div>
+
+  <a href="../../Templo principal/images/5.png" data-lightbox="models" data-title="
+Previous Left - Next Right">
+    <img class="templo-img5" src="../../Templo principal/images/5.png">
+  </a>
+
+  <p class="mensj">
+    The temple comprises a space 240 feet long by 190 feet wide and took almost three years to build.
+    Various fundraising activities were carried out to make this monumental project possible, without having to
+    resort to asking anyone for money or making any loans. Aaron, spiritual leader at that time, expressed
+    that the same God who guides his church day by day and makes its overwhelming growth and expansion possible, had given us
+    this new temple in which together we are in communion with the Lord. Aaron added: "Now, the same God
+    that made possible the construction of a large ark to gather the souls that would be saved in the times
+    of Noah, made possible the construction of this temple".
+  </p>
+
+  <a href="../../Templo principal/images/3.png" data-lightbox="models" data-title="
+Previous Left - Next Right">
+    <img class="templo-img3" src="../../Templo principal/images/3.png" alt="">
+  </a>
+
+  <a href="../../Templo principal/images/4.png" data-lightbox="models" data-title="
+Previous Left - Next Right">
+    <img class="templo-img4" src="../../Templo principal/images/4.png" alt="">
+  </a>
+
+
+
+  <br>
+
+  <p class="mensj">
+    Hundreds of members of the Congregation collaborated in its construction, directed by Ismael Díaz, who was the
+    Foreman. It should be noted that Aarón was working day after day, tirelessly, for the achievement of this
+    dream; he laid tiles, painted, filled concrete columns and laid blocks. The architect Federico Montilla, together with his
+    partner Russell E. Látimer, was in charge of the design and supervision of the project. Montilla with great admiration
+    exclaimed: «The great importance that must be highlighted here is that we are talking about a temple, a church, a
+    important situation within the Puerto Rican culture, a work for a lifetime. The impression that the same
+    cause is extremely important, since it is a monument to the Holy Spirit and which was inaugurated when it turned 50
+    of the Mita Church». Montilla added: "Our biggest challenge, like every professional, was to produce the best work
+    possible, since we were facing a historic commitment to Aaron, who is a man for history, and a challenge with
+    the Mita. It had to be a well-thought-out work, since the people of Puerto Rico are going to have the opportunity to not only
+    see it on the outside, but contemplate and enjoy it on the inside; that's why we gave great importance to the structure
+    interior, giving emphasis to the parishioners and people who visit it.
+  </p>
+
+  <section class="about" id="aboutEgida">
+    <div class="content">
+      <h1 class="galeria-templo-h1">
+Photo gallery of our main Temple</h1>
+      <div class="galleryInfo">Click photo to see more</div>
+      <div class="gallery">
+        <a href="../../Templo principal/images/b5.jpeg" data-lightbox="models" data-title="
+Previous Left - Next Right">
+          <img src="../../Templo principal/images/b5.jpeg">
+        </a>
+        <a href="../../Templo principal/images/7.jpeg" data-lightbox="models" data-title="
+Previous Left - Next Right">
+          <img src="../../Templo principal/images/7.jpeg">
+        </a>
+        <a href="../../Templo principal/images/8.jpeg" data-lightbox="models" data-title="
+Previous Left - Next Right">
+          <img src="../../Templo principal/images/8.jpeg">
+        </a>
+        <a href="../../Templo principal/images/9.jpeg" data-lightbox="models" data-title="
+Previous Left - Next Right">
+          <img src="../../Templo principal/images/9.jpeg">
+        </a>
+        <a href="../../Templo principal/images/10.jpeg" data-lightbox="models" data-title="
+Previous Left - Next Right">
+          <img src="../../Templo principal/images/10.jpeg">
+        </a>
+        <a href="../../Templo principal/images/11.jpeg" data-lightbox="models" data-title="
+Previous Left - Next Right">
+          <img src="../../Templo principal/images/11.jpeg">
+        </a>
+        <a href="../../Templo principal/images/12.jpeg" data-lightbox="models" data-title="
+Previous Left - Next Right">
+          <img src="../../Templo principal/images/12.jpeg">
+        </a>
+        <a href="../../Templo principal/images/13.jpeg" data-lightbox="models" data-title="
+Previous Left - Next Right">
+          <img src="../../Templo principal/images/13.jpeg">
+        </a>
+        <a href="../../Templo principal/images/14.jpeg" data-lightbox="models" data-title="
+Previous Left - Next Right">
+          <img src="../../Templo principal/images/14.jpeg">
+        </a>
+        <a href="../../Templo principal/images/15.jpeg" data-lightbox="models" data-title="
+Previous Left - Next Right">
+          <img src="../../Templo principal/images/15.jpeg">
+        </a>
+        <a href="../../Templo principal/images/16.jpeg" data-lightbox="models" data-title="
+Previous Left - Next Right">
+          <img src="../../Templo principal/images/16.jpeg">
+        </a>
+        <a href="../../Templo principal/images/17.jpeg" data-lightbox="models" data-title="
+Previous Left - Next Right">
+          <img src="../../Templo principal/images/17.jpeg">
+        </a>
+        <a href="../../Templo principal/images/18.jpeg" data-lightbox="models" data-title="
+Previous Left - Next Right">
+          <img src="../../Templo principal/images/18.jpeg">
+        </a>
+      </div>
+      </div>
+      </div>
+  </section>
+
+  <br> <br> <br>
+
+</body>
+
+
+
+<!-- Footer -->
+
+<footer>
+  <div class="socialMediaIcons">
+    <div class="wrapper">
+      <a href="https://www.facebook.com/CongregacionMita" target="_blank">
+        <div class="button">
+          <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+          <span>Facebook</span>
+        </div>
+      </a>
+
+      <a href="https://www.youtube.com/@CongregacionMitaInc/videos" target="_blank">
+        <div class="button">
+          <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+          <span>Youtube</span>
+        </div>
+      </a>
+
+      <a href="mailto:oots@congregacionmita.org">
+        <div class="button">
+          <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+          <span>Contacto</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="divider-icon">
+    <p><img src="./images/logo.png" /></p>
+  </div>
+
+  <div class="footer-bottom">
+    <p class="">Congregation Mita Inc. Copyright © 2025 All Rights Reserved. Terms and Conditions</p>
+  </div>
+</footer>
+<!-- Script -->
+<script src="./ObraSocial.js"></script>
+<script src="../lightbox/lightbox-plus-jquery.js"></script>
+</body>
+
+</html>

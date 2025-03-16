@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agrupaciones Musicales</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../Pagina_Principal/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../Pagina_Principal/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../Pagina_Principal/favicon/favicon-16x16.png">
+  <link rel="manifest" href="Pagina_Principal/favicon/site.webmanifest">
+  <!-- Archico CSS principal -->
+  <link rel="stylesheet" href="./AgrupacionesMusicales.css">
+  <!-- Para iconos de Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Libreria Lightbox para las galerias de imagenes -->
+  <link rel="stylesheet" href="../lightbox/lightbox.css">
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y8B8LKVH7D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y8B8LKVH7D');
+</script>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <div class="container">
+      <input type="checkbox" name="" id="check">
+
+      <div class="logo-container">
+        <a href="../Pagina_Principal/index.html" class="logo"><img src="../Pagina_Principal/images/logo.png"> Congregación Mita </a>
+      </div>
+
+      <div class="nav-btn">
+        <div class="nav-links">
+          <ul>
+            <li class="nav-link" style="--i: .6s">
+              <a href="../Doctrina/doctrina.html">誰是我們? </a>
+            </li>
+            <li class="nav-link" style="--i: .86s">
+              <a href="../Lideres_Espirituales/LideresEspirituales.html"> 精神领袖 </a>
+              <!--<div class="dropdown">
+                <ul>
+                  <li class="dropdown-link">
+                    <a href="../Lideres_Espirituales/LideresEspirituales.html">Juanita García Peraza</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Lideres_Espirituales/LideresEspirituales.html">Teófilo Vargas Seín</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Lideres_Espirituales/LideresEspirituales.html">Rosinín Rodríguez Pérez</a>
+                  </li>
+                </ul>
+              </div>-->
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html">音乐 <i
+                  class="fa-solid fa-caret-down"></i></a>
+              <div class="dropdown">
+                <ul>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#bv">三田乐队</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#am">音乐学院</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#aa">竖琴分组</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#ac">字符串分组
+                    </a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#acf">弓弦分组
+                    </a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#cm">三田合唱团
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="../Paises/carrusel.html">国家</a>
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="#">我们中的更多人<i class="fa-solid fa-caret-down i4"></i></a>
+              <div class="dropdown">
+                <ul>
+                  <li class="dropdown-link">
+                    <a href="../Templo principal/templo.html">主庙</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Cuerpos_Ministeriales/CuerposMinisteriales.html">部级机构</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Obra_Social/ObraSocial.html">社会工作</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Niñez_y_Juventud/NiñezYJuventud.html">童年和青年</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Eventos_Historicos/EventosHistoricos.html">历史事件</a>
+                  </li>
+
+                  <li class="dropdown-link">
+                    <a href="../Contacto/contacto.html">联系我们</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="#"><i class="fa-solid fa-earth-americas" style="font-size: 20px; padding-top: 10px; "></i> <i
+                  class="fa-solid fa-caret-down i5"></i></a>
+              <div class="dropdown dropdown-idiomas">
+                <ul>
+                  <li class="dropdown-link">
+                    <a href="../../index.html">Español</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../ingles/Pagina_Principal/index.html">English</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../italiano/Pagina_Principal/index.html">Italiano</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../aleman/Pagina_Principal/index.html">Deutsch</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../Portugues/Pagina_Principal/index.html">Português</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../frances/Pagina_Principal/index.html">Français</a>
+                  </li>
+                  <!--<li class="dropdown-link">
+                    <a href="#">日本</a>
+                  </li> -->
+                  <li class="dropdown-link">
+                    <a href="#">中国人</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hamburger-menu-container">
+        <div class="hamburger-menu">
+          <div></div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Contenido Princial -->
+
+  <div class="title">
+    <h1>音乐团体</h1>
+  </div>
+
+  <section class="about" id="bv">
+    <div class="content">
+      <div class="text">
+        <h1>三田乐队</h1>
+        <h5>成立于1956年</h5>
+        <P>Banda de Mita de Puerto Rico 由 130 名音乐家组成。 他在国内外的各种政府、公民、文化和社会活动中表现出色。
+          他曾代表波多黎各参加纽约市的波多黎各游行、西班牙塞维利亚的世界博览会，以及波多黎各和国际上的无数活动。 它因其音质、编队和着装而获奖。</P>
+      </div>
+      <div class="bandCarousel">
+        <a href="../../Fotos/Banda de viento/3.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/3.jpg" class="mainPicture">
+        </a>
+      </div>
+      <h1 class="galleryH1">画廊</h1>
+      <i class="fa-light fa-trumpet"></i>
+      <div class="galleryInfo">触摸照片查看更多</div>
+      <div class="gallery">
+        <a href="../../Fotos/a4.png" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/a4.png">
+        </a>
+        <a href="../../Fotos/Banda de viento/9.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/9.jpg">
+        </a>
+        <a href="../../Fotos/Banda de viento/4.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/4.jpg">
+        </a>
+        <a href="../../Fotos/Banda de viento/10.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/10.jpg">
+        </a>
+        <a href="../../Fotos/Banda de viento/7.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/7.jpg">
+        </a>
+        <a href="../../Fotos/Banda de viento/2.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/2.jpg">
+        </a>
+        <a href="../../Fotos/Banda de viento/6.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/6.jpg">
+        </a>
+        <a href="../../Fotos/Banda de viento/8.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/8.jpg">
+        </a>
+        <a href="../../Fotos/Banda de viento/11.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/11.jpg">
+        </a>
+        <a href="../../Fotos/Banda de viento/12.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/12.jpg">
+        </a>
+      </div>
+      <div class="SMLinkContainer">
+        <a href="https://www.facebook.com/BandaMita" target="_blank" class="SMLink"><i
+            class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider-icon">
+    <p><img src="./img/logo.png" /></p>
+  </div>
+
+  <section class="about" id="am">
+    <div class="content">
+      <div class="bandCarousel">
+        <a href="../../Fotos/Academias/89.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Academias/89.jpg" class="mainPicture">
+        </a>
+      </div>
+      <div class="text">
+        <h1>音乐学院</h1>
+        <P> 想要加入乐队或其他团体的会众兄弟进入学院，从该地区的专业人士那里获得音乐知识。 这些课程是免费的，由音乐老师在空闲时间教授。 学生学习 solfegrate，发展器乐和解释技巧。</P>
+      </div>
+      <h1 class="galleryH1">画廊</h1><i class="fa-light fa-trumpet"></i>
+      <div class="galleryInfo">触摸照片查看更多</div>
+      <div class="gallery" id="amGallery">
+        <a href="../../Fotos/Academias/96.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Academias/96.jpg">
+        </a>
+        <a href="../../Fotos/Academias/97.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Academias/97.jpg">
+        </a>
+        <a href="../../Fotos/Academias/98.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Academias/98.jpg">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider-icon">
+    <p><img src="./img/logo.png" /></p>
+  </div>
+
+  <section class="about" id="aa">
+    <div class="content">
+      <div class="text">
+        <h1>竖琴分组</h1>
+        <h5>成立于1986年</h5>
+        <P>它是波多黎各唯一的竖琴协会。 在波多黎各享有盛誉； 参加了无数的政府、公民、社会和文化活动。 不断收到对我们小组的称赞，并收到数百份参加各种活动的邀请。 他们主持我们所有的宗教仪式，唱着赞美上帝的赞美诗。</P>
+      </div>
+      <div class="bandCarousel">
+        <a href="../../Fotos/Arpas/15.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Arpas/15.jpg" class="mainPicture">
+        </a>
+      </div>
+      <div class="SMLinkContainer" id="arpasFaceLink">
+        <a href="https://www.facebook.com/ArpasdeMita" target="_blank" class="SMLink"><i
+            class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider-icon">
+    <p><img src="./img/logo.png" /></p>
+  </div>
+
+  <section class="about" id="ac">
+    <div class="content">
+      <div class="bandCarousel">
+        <a href="../../Fotos/Cuerdas/16.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/16.jpg" class="mainPicture">
+        </a>
+      </div>
+      <div class="text">
+        <h1>字符串分组</h1>
+        <h5>成立于1950年</h5>
+        <P>它目前有 75 个成员。 属于该组的乐器有：吉他、波多黎各 cuatro、requinto、tiple、曼陀林、弦贝司和打击乐器。 这个音乐团体参加了各种文化活动，并主持了我们所有的宗教服务。
+          此外，他们陪同传教士到不同的城镇传播救恩的信息。</P>
+      </div>
+      <h1 class="galleryH1">画廊</h1>
+      <div class="galleryInfo">触摸照片查看更多</div>
+      <div class="gallery">
+        <a href="../../Fotos/Cuerdas/78.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/78.jpg">
+        </a>
+        <a href="../../Fotos/Cuerdas/2003.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2003.jpeg">
+        </a>
+        <a href="../../Fotos/Cuerdas/2004.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2004.jpeg">
+        </a>
+        <a href="../../Fotos/Cuerdas/2007.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2007.jpeg">
+        </a>
+        <a href="../../Fotos/Cuerdas/2009.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2009.jpeg">
+        </a>
+        <a href="../../Fotos/Cuerdas/2010.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2010.jpeg">
+        </a>
+        <a href="../../Fotos/Cuerdas/2011.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2011.jpeg">
+        </a>
+        <a href="../../Fotos/Cuerdas/14.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/14.jpg">
+        </a>
+      </div>
+      <div class="SMLinkContainer">
+        <a href="https://www.facebook.com/bandadecuerdasdemita" target="_blank" class="SMLink"><i
+            class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider-icon">
+    <p><img src="./img/logo.png" /></p>
+  </div>
+
+  <section class="about" id="acf">
+    <div class="content">
+      <div class="bandCarousel">
+        <a href="../../Fotos/Cuerdas/2006.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2006.jpeg" class="mainPicture">
+        </a>
+      </div>
+      <div class="text">
+        <h1>弓弦分组</h1>
+        <h5>成立于2007年</h5>
+
+        <p>我们有一支由小提琴、中提琴、大提琴和低音提琴组成的弓弦乐团，成立于2007年。
+          并拥有大约 25 名音乐家。
+        </p>
+      </div>
+      <h1 class="galleryH1">画廊</h1>
+      <div class="galleryInfo">触摸照片查看更多</div>
+      <div class="gallery">
+        <a href="../../Fotos/Cuerdas/2005.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2005.jpeg">
+        </a>
+        <a href="../../Fotos/Cuerdas/2008.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2008.jpeg">
+        </a>
+        <a href="../../Fotos/Cuerdas/2012.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2012.jpeg">
+        </a>
+  </section>
+
+  <div class="divider-icon">
+    <p><img src="./img/logo.png" /></p>
+  </div>
+
+  <section class="about" id="cm">
+    <div class="content">
+      <div class="text">
+        <h1>三田合唱团</h1>
+        <h5>成立于1990年</h5>
+        <P>它由 25 名年轻和成年成员组成，他们主持会众的宗教服务，向上帝解释赞美诗。 它们分为以下几种声音：女高音、女低音、男高音和男低音。 他们定期举办音乐会，以取悦整个社区。</P>
+      </div>
+      <div class="bandCarousel">
+        <a href="../../Fotos/Coro/88.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Coro/88.jpg" class="mainPicture">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="socialMediaIcons">
+      <div class="wrapper">
+        <a href="https://www.facebook.com/CongregacionMita" target="_blank">
+          <div class="button">
+            <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+            <span>Facebook</span>
+          </div>
+        </a>
+
+        <a href="https://www.youtube.com/@CongregacionMitaInc/videos" target="_blank">
+          <div class="button">
+            <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+            <span>Youtube</span>
+          </div>
+        </a>
+
+        <a href="mailto:oots@congregacionmita.org">
+          <div class="button">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <span>Contacto</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="divider-icon" id="dividerIconFooter">
+      <p><img src="./img/logo.png" /></p>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Congregation Mita Inc. 版权所有 © 2025 保留所有权利。 条款和条件</p>
+    </div>
+  </footer>
+
+
+  <!-- Para los iconos -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Script -->
+  <script src="./AgrupacionesMusicales.js"></script>
+  <script src="../lightbox/lightbox-plus-jquery.js"></script>
+</body>
+
+</html>

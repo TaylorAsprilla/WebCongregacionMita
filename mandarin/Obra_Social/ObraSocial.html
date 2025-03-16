@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obra Social</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../Pagina_Principal/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../Pagina_Principal/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../Pagina_Principal/favicon/favicon-16x16.png">
+  <link rel="manifest" href="Pagina_Principal/favicon/site.webmanifest">
+  <!-- Archico CSS principal -->
+  <link rel="stylesheet" href="./ObraSocial.css">
+  <!-- Para iconos de Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Libreria Lightbox para las galerias de imagenes -->
+  <link rel="stylesheet" href="../lightbox/lightbox.css">
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y8B8LKVH7D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y8B8LKVH7D');
+</script>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <div class="container">
+      <input type="checkbox" name="" id="check">
+
+      <div class="logo-container">
+        <a href="../Pagina_Principal/index.html" class="logo"><img src="../Pagina_Principal/images/logo.png"> Congregación Mita </a>
+      </div>
+
+      <div class="nav-btn">
+        <div class="nav-links">
+          <ul>
+            <li class="nav-link" style="--i: .6s">
+              <a href="../Doctrina/doctrina.html">誰是我們? </a>
+            </li>
+            <li class="nav-link" style="--i: .86s">
+              <a href="../Lideres_Espirituales/LideresEspirituales.html"> 精神领袖 </a>
+              <!--<div class="dropdown">
+                <ul>
+                  <li class="dropdown-link">
+                    <a href="../Lideres_Espirituales/LideresEspirituales.html">Juanita García Peraza</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Lideres_Espirituales/LideresEspirituales.html">Teófilo Vargas Seín</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Lideres_Espirituales/LideresEspirituales.html">Rosinín Rodríguez Pérez</a>
+                  </li>
+                </ul>
+              </div>-->
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html">音乐 <i
+                  class="fa-solid fa-caret-down"></i></a>
+              <div class="dropdown">
+                <ul>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#bv">三田乐队</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#am">音乐学院</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#aa">竖琴分组</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#ac">字符串分组
+                    </a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#acf">弓弦分组
+                    </a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#cm">三田合唱团
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="../Paises/carrusel.html">国家</a>
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="#">我们中的更多人<i class="fa-solid fa-caret-down i4"></i></a>
+              <div class="dropdown">
+                <ul>
+                  <li class="dropdown-link">
+                    <a href="../Templo principal/templo.html">主庙</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Cuerpos_Ministeriales/CuerposMinisteriales.html">部级机构</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Obra_Social/ObraSocial.html">社会工作</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Niñez_y_Juventud/NiñezYJuventud.html">童年和青年</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Eventos_Historicos/EventosHistoricos.html">历史事件</a>
+                  </li>
+
+                  <li class="dropdown-link">
+                    <a href="../Contacto/contacto.html">联系我们</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="#"><i class="fa-solid fa-earth-americas" style="font-size: 20px; padding-top: 10px; "></i> <i
+                  class="fa-solid fa-caret-down i5"></i></a>
+              <div class="dropdown dropdown-idiomas">
+                <ul>
+                  <li class="dropdown-link">
+                    <a href="../../index.html">Español</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../ingles/Pagina_Principal/index.html">English</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../italiano/Pagina_Principal/index.html">Italiano</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../aleman/Pagina_Principal/index.html">Deutsch</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../Portugues/Pagina_Principal/index.html">Português</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../frances/Pagina_Principal/index.html">Français</a>
+                  </li>
+                  <!--<li class="dropdown-link">
+                    <a href="#">日本</a>
+                  </li> -->
+                  <li class="dropdown-link">
+                    <a href="#">中国人</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hamburger-menu-container">
+        <div class="hamburger-menu">
+          <div></div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Contenido Princial -->
+
+  <div class="title">
+    <h1>社会工作</h1>
+  </div>
+
+  <section class="about" id="ccm">
+    <div class="content">
+      <div class="text">
+        <h1>三田公理学院</h1>
+        <h5>成立于1981年</h5>
+        <P> Congregación Mita College 获得了 Middle State Association 的认可。 它提供托儿服务，并从学前班到十二年级任教。 在更高层次上，它有商业和高等教育课程。
+          他的体育项目、演讲比赛、智力竞赛和荣誉学会才艺比赛等多次获得国内和国际奖项。</P>
+
+        <p>Rosinín 为即将在学院工作的新托儿所揭幕。我们感谢 Rosinín、董事会成员、行政人员、教职员工和合作者让这个梦想成真。</p>
+      </div>
+      <div class="bandCarousel">
+        <a href="../../Fotos/Colegio/85.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img style="border-radius: 5px;" src="../../Fotos/Colegio/85.jpg">
+        </a>
+      </div>
+      <h1 class="galleryH1">画廊</h1>
+      <div class="galleryInfo">触摸照片查看更多</div>
+      <div class="gallery">
+        <a href="../../Fotos/Colegio/86.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/86.jpg">
+        </a>
+        <a href="../../Fotos/Colegio/87.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/87.jpg">
+        </a>
+        <a href="../../Fotos/Colegio/102.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/102.jpg">
+        </a>
+        <a href="../../Fotos/Colegio/n1.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/n1.jpeg">
+        </a>
+        <a href="../../Fotos/Colegio/n2.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/n2.jpeg">
+        </a>
+        <a href="../../Fotos/Colegio/103.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/103.jpg">
+        </a>
+        <a href="../../Fotos/Colegio/104.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/104.jpg">
+        </a>
+        <a href="../../Fotos/Colegio/105.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/105.jpg">
+        </a>
+        <a href="../../Fotos/Colegio/106.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/106.jpg">
+        </a>
+        <a href="../../Fotos/Colegio/107.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/107.jpg">
+        </a>
+        <a href="../../Fotos/Colegio/108.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Colegio/108.jpg">
+        </a>
+      </div>
+      <div class="SMLinkContainer" id="SMLinkContainerColegio">
+        <div class="SMLinkContainer-Sub">
+          <a href="https://www.facebook.com/profile.php?id=100022213402925" target="_blank" class="SMLink"><i
+              class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/ColegioMita" target="_blank" class="SMLink"><i
+              class="fa-brands fa-square-twitter"></i></a>
+          <a href="https://www.instagram.com/colegiomita/" target="_blank" class="SMLink"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@colegiocongregacionmita8739" target="_blank" class="SMLink"><i
+              class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider-icon" id="dividerColegio">
+    <p><img src="./img/logo.png" /></p>
+  </div>
+
+  <section class="about" id="aboutEgida">
+    <div class="content">
+      <div class="bandCarousel">
+        <a href="../../Fotos/20.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img style="border-radius: 5px" src="../../Fotos/20.jpg">
+        </a>
+      </div>
+      <div class="text">
+        <h1>Aegis 和 Institution El Paraíso</h1>
+        <h5>成立于1985年</h5>
+        <P>La Egida and El Paraíso Institution 是根据波多黎各联邦制定的法律成立的。 作为一个非营利机构，它产生于为缺乏照顾的老年人提供专门服务的巨大需求。
+          它有护理服务、救护车、社会工作、精神咨询等。</P>
+      </div>
+      <h1 class="galleryH1">画廊</h1>
+      <div class="galleryInfo">触摸照片查看更多</div>
+      <div class="gallery">
+        <a href="../../Fotos/Egida/106.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/106.jpg">
+        </a>
+        <a href="../../Fotos/Egida/107.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/107.jpg">
+        </a>
+        <a href="../../Fotos/Egida/108.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/108.jpg">
+        </a>
+        <a href="../../Fotos/Egida/109.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/109.jpg">
+        </a>
+        <a href="../../Fotos/Egida/110.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/110.jpg">
+        </a>
+        <a href="../../Fotos/Egida/111.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/111.jpg">
+        </a>
+        <a href="../../Fotos/Egida/112.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/112.jpg">
+        </a>
+        <a href="../../Fotos/Egida/113.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/113.jpg">
+        </a>
+        <a href="../../Fotos/Egida/114.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/114.jpg">
+        </a>
+        <a href="../../Fotos/Egida/115.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/115.jpg">
+        </a>
+        <a href="../../Fotos/Egida/116.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Egida/116.jpg">
+        </a>
+      </div>
+      <div class="SMLinkContainer" id="SMLinkContainerEgida">
+        <a href="https://www.facebook.com/egidaelparaiso" target="_blank" class="SMLink"><i
+            class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider-icon" id="dividerEgida">
+    <p><img src="./img/logo.png" /></p>
+  </div>
+
+  <br> <br>
+
+  <section class="about" id="oots">
+    <div class="content">
+      <div class="text">
+        <h1>迎新及社会工作办公室</h1>
+        <h5>成立于1985年</h5>
+        <P>Mita Congregation 的定向和社会工作办公室一直通过个案工作向整个社区（儿童、青少年、成人和老年人）提供直接的社会服务。
+          它源于我们城镇实现个人整体发展的巨大需求，因为我们了解人类是一个生物-心理-社会-文化-精神实体。 它拥有获得大学执照的社会工作者、一名临床心理学家、一名教育治​​疗师和一个历史档案部门，该部门保存了 Mita
+          Congregation 的全部历史。 向社区提供的服务一般都是免费的。</P>
+      </div>
+      <div class="bandCarousel">
+        <a href="../../Fotos/21.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/21.jpg" id="imgOficina">
+        </a>
+      </div>
+
+      <h1 class="galleryH1">画廊</h1>
+      <div class="galleryInfo">触摸照片查看更多</div>
+      <div class="gallery">
+        <a href="../../Fotos/Oficina/o1.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Oficina/o1.jpeg">
+        </a>
+        <a href="../../Fotos/Oficina/o2.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Oficina/o2.jpeg">
+        </a>
+        <a href="../../Fotos/Oficina/o3.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Oficina/o3.jpeg">
+        </a>
+        <a href="../../Fotos/Oficina/o4.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Oficina/o4.jpeg">
+        </a>
+        <a href="../../Fotos/Oficina/o5.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Oficina/o5.jpeg">
+        </a>
+        <a href="../../Fotos/Oficina/o6.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Oficina/o6.jpeg">
+        </a>
+      </div>
+      <div class="SMLinkContainer" id="SMLinkContainerColegio">
+        <div class="SMLinkContainer-Sub">
+          <a href="https://www.facebook.com/profile.php?id=100022213402925" target="_blank" class="SMLink"><i
+              class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/ColegioMita" target="_blank" class="SMLink"><i
+              class="fa-brands fa-square-twitter"></i></a>
+          <a href="https://www.instagram.com/colegiomita/" target="_blank" class="SMLink"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@colegiocongregacionmita8739" target="_blank" class="SMLink"><i
+              class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br> <br> <br> <br>
+
+  <div class="divider-icon" id="aboutMemorial">
+    <p><img src="./img/logo.png" /></p>
+  </div>
+
+  <section class="about" id="memorial">
+    <div class="content">
+      <div class="text">
+        <h1>Los Hermanos Memorial Park, Inc.</h1>
+        <h5> 成立于2010年</h5>
+        <P>Los Hermanos Memorial Park, Inc. 是 Congregation Mita, Inc. 的一个机构。
+          会众的目的是通过这个墓地的运作，为其教区居民提供机会
+          在圣经的戒律范围内接受基督教的葬礼。它拥有所有政府许可
+          它的运营和有充足的停车位，一个宗教服务的小教堂，花园区，壁龛和坟墓。</P>
+      </div>
+      <div class="bandCarousel">
+        <a href="../../Fotos/memorialpark.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img style="width: 500px; border-radius: 5px;" src="../../Fotos/memorialpark.jpeg" id="imgOficina">
+        </a>
+      </div>
+
+      <h1 class="galleryH1">画廊</h1>
+      <div class="galleryInfo">触摸照片查看更多</div>
+      <div class="gallery">
+        <a href="../../Fotos/Memorial Park/m1.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Memorial Park/m1.jpeg">
+        </a>
+        <a href="../../Fotos/Memorial Park/m2.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Memorial Park/m2.jpeg">
+        </a>
+        <a href="../../Fotos/Memorial Park/m3.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Memorial Park/m3.jpeg">
+        </a>
+        <a href="../../Fotos/Memorial Park/m4.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Memorial Park/m4.jpeg">
+        </a>
+        <a href="../../Fotos/Memorial Park/m5.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Memorial Park/m5.jpeg">
+        </a>
+        <a href="../../Fotos/Memorial Park/m6.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Memorial Park/m6.jpeg">
+        </a>
+        <a href="../../Fotos/Memorial Park/m7.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Memorial Park/m7.jpeg">
+        </a>
+      </div>
+
+      <div class="SMLinkContainer" id="SMLinkContainerColegio">
+        <div class="SMLinkContainer-Sub">
+          <a href="https://www.facebook.com/LosHermanosMemorialPark" target="_blank" class="SMLink"><i
+              class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="socialMediaIcons">
+      <div class="wrapper">
+        <a href="https://www.facebook.com/CongregacionMita" target="_blank">
+          <div class="button">
+            <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+            <span>Facebook</span>
+          </div>
+        </a>
+
+        <a href="https://www.youtube.com/@CongregacionMitaInc/videos" target="_blank">
+          <div class="button">
+            <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+            <span>Youtube</span>
+          </div>
+        </a>
+
+        <a href="mailto:oots@congregacionmita.org">
+          <div class="button">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <span>Contacto</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="divider-icon" id="dividerIconFooter">
+      <p><img src="./img/logo.png" /></p>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Congregation Mita Inc. 版权所有 © 2025 保留所有权利。 条款和条件</p>
+    </div>
+  </footer>
+
+  <!-- Para los iconos -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Script -->
+  <script src="./ObraSocial.js"></script>
+  <script src="../lightbox/lightbox-plus-jquery.js"></script>
+</body>
+
+</html>

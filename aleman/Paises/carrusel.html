@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Länder</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../Pagina_Principal/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../Pagina_Principal/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../Pagina_Principal/favicon/favicon-16x16.png">
+  <link rel="manifest" href="Pagina_Principal/favicon/site.webmanifest">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link href="css/Montserrat-ExtraBold.ttf">
+  <link href="css/Montserrat-Medium.ttf">
+  <!-- Para iconos de Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y8B8LKVH7D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y8B8LKVH7D');
+</script>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <div class="container">
+      <input type="checkbox" name="" id="check">
+
+      <div class="logo-container">
+        <a href="../Pagina_Principal/index.html" class="logo"><img src="../Pagina_Principal/images/logo.png">
+          Mita-Gemeinde </a>
+      </div>
+
+      <div class="nav-btn">
+        <div class="nav-links">
+          <ul>
+            <li class="nav-link" style="--i: .6s">
+              <a href="../Doctrina/doctrina.html">Über uns?</a>
+            </li>
+            <li class="nav-link" style="--i: .86s">
+              <a href="../Lideres_Espirituales/LideresEspirituales.html"> Spirituelle Führer</a>
+              <!--<div class="dropdown">
+              <ul>
+                <li class="dropdown-link">
+                  <a href="../Lideres_Espirituales/LideresEspirituales.html">Juanita García Peraza</a>
+                </li>
+                <li class="dropdown-link">
+                  <a href="../Lideres_Espirituales/LideresEspirituales.html">Teófilo Vargas Seín</a>
+                </li>
+                <li class="dropdown-link">
+                  <a href="../Lideres_Espirituales/LideresEspirituales.html">Rosinín Rodríguez Pérez</a>
+                </li>
+              </ul>
+            </div>-->
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html">Musik <i
+                  class="fa-solid fa-caret-down"></i>
+              </a>
+              <div class="dropdown">
+                <ul>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#bv">Mita-Band</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#am">Musikalische Akademien</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#aa">Gruppierung von Harfen</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#ac">String-Gruppierung</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#acf">Gruppierung von gestrichenen
+                      Saiten</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#cm">Mita-Chor</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="../Paises/carrusel.html">Länder</a>
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="#">Mehr von uns<i class="fa-solid fa-caret-down i4"></i></a>
+              <div class="dropdown">
+                <ul>
+                  <li class="dropdown-link">
+                    <a href="../Templo principal/templo.html">Haupttempel</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Cuerpos_Ministeriales/CuerposMinisteriales.html">Ministerielle Gremien</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Obra_Social/ObraSocial.html">Sozialarbeit</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Niñez_y_Juventud/NiñezYJuventud.html">Kindheit und Jugend</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Eventos_Historicos/EventosHistoricos.html">Historische Ereignisse</a>
+                  </li>
+
+                  <li class="dropdown-link">
+                    <a href="../Contacto/contacto.html">Kontaktiere uns</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="#"><i class="fa-solid fa-earth-americas" style="font-size: 20px; padding-top: 10px; "></i> <i
+                  class="fa-solid fa-caret-down i5"></i></a>
+              <div class="dropdown dropdown-idiomas">
+                <ul>
+                  <li class="dropdown-link">
+                    <a href="../../index.html">Español</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../ingles/Pagina_Principal/index.html">English</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../italiano/Pagina_Principal/index.html">Italiano</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="#">Deutsch</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../Portugues/Pagina_Principal/index.html">Português</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../frances/Pagina_Principal/index.html">Français</a>
+                  </li>
+                  <!--<li class="dropdown-link">
+                    <a href="#">日本</a>
+                  </li> -->
+                  <li class="dropdown-link">
+                    <a href="../../mandarin/Pagina_Principal/index.html">中国人</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hamburger-menu-container">
+        <div class="hamburger-menu">
+          <div></div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <h2 class="seleccion-txt">Wählen Sie das Land Ihres Interesses aus<h3><a class="boton" href="galeriapaises.html">Alles
+        sehen</a></h3>
+  </h2>
+  <div class="contenedor">
+    <div class="contenedor-total">
+      <div class="contenedor-banderas">
+        <estilos><img src="../../Paises/image/banderas/01.jpg">
+          <div class="capa">
+            <a href="puertorico.html">
+              <h3>Puerto Rico</h3>
+              <p>Klicken Sie hier, um auf das Land zuzugreifen</p>
+            </a>
+          </div>
+        </estilos>
+        <estilos><img src="../../Paises/image/banderas/02.jpg">
+          <div class="capa">
+            <a class="link" href="santo_domingo.html">
+              <h3>Dominikanische Republik</h3>
+              <p>Klicken Sie hier, um auf das Land zuzugreifen</p>
+            </a>
+          </div>
+        </estilos>
+        <estilos><img src="../../Paises/image/banderas/06.jpg">
+          <div class="capa">
+            <a href="estados_unidos.html">
+              <h3>USA</h3>
+              <p>Klicken Sie hier, um auf das Land zuzugreifen</p>
+            </a>
+          </div>
+        </estilos>
+        <estilos><img src="../../Paises/image/banderas/09.jpg">
+          <div class="capa">
+            <a href="panama.html">
+              <h3>Panama</h3>
+              <p>Klicken Sie hier, um auf das Land zuzugreifen</p>
+            </a>
+          </div>
+        </estilos>
+        <estilos><img src="../../Paises/image/banderas/04.jpg">
+          <div class="capa">
+            <a href="ecuador.html">
+              <h3>Ecuador</h3>
+              <p>Klicken Sie hier, um auf das Land zuzugreifen</p>
+            </a>
+          </div>
+        </estilos>
+        <estilos><img src="../../Paises/image/banderas/05.jpg">
+          <div class="capa">
+            <a href="venezuela.html">
+              <h3>Venezuela</h3>
+              <p>Klicken Sie hier, um auf das Land zuzugreifen</p>
+            </a>
+          </div>
+        </estilos>
+        <estilos><img src="../../Paises/image/banderas/12.jpg">
+          <div class="capa">
+            <a href="el_salvador.html">
+              <h3>El Salvador</h3>
+              <p>Klicken Sie hier, um auf das Land zuzugreifen</p>
+            </a>
+          </div>
+        </estilos>
+        <estilos><img src="../../Paises/image/banderas/03.jpg">
+          <div class="capa">
+            <a href="colombia.html">
+              <h3>Kolumbien</h3>
+              <p>Klicken Sie hier, um auf das Land zuzugreifen</p>
+            </a>
+          </div>
+        </estilos>
+        <estilos><img src="../../Paises/image/banderas/10.jpg">
+          <div class="capa">
+            <a href="costa_rica.html">
+              <h3>Costa Rica</h3>
+              <p>Klicken Sie hier, um auf das Land zuzugreifen</p>
+            </a>
+          </div>
+        </estilos>
+        <estilos><img src="../../Paises/image/banderas/08.jpg">
+          <div class="capa">
+            <a href="mexico.html">
+              <h3>Mexiko</h3>
+              <p>Klicken Sie hier, um auf das Land zuzugreifen</p>
+            </a>
+          </div>
+        </estilos>
+        <estilos><img src="../../Paises/image/banderas/15.jpg">
+          <div class="capa">
+            <a href="italia.html">
+              <h3>Italien</h3>
+              <p>Klicken Sie hier, um auf das Land zuzugreifen</p>
+            </a>
+          </div>
+        </estilos>
+        <estilos><img src="../../Paises/image/banderas/14.jpg">
+          <div class="capa">
+            <a href="espana.html">
+              <h3>Spanien</h3>
+              <p>Klicken Sie hier, um auf das Land zuzugreifen</p>
+            </a>
+          </div>
+        </estilos>
+        <estilos><img src="../../Paises/image/banderas/07.jpg">
+          <div class="capa">
+            <a href="canada.html">
+              <h3>Kanada</h3>
+              <p>Klicken Sie hier, um auf das Land zuzugreifen</p>
+            </a>
+          </div>
+        </estilos>
+        <estilos><img src="../../Paises/image/banderas/13.jpg">
+          <div class="capa">
+            <a href="chile.html">
+              <h3>Chili</h3>
+              <p>Klicken Sie hier, um auf das Land zuzugreifen</p>
+            </a>
+          </div>
+        </estilos>
+        <estilos><img src="../../Paises/image/banderas/11.jpg">
+          <div class="capa">
+            <a href="nicaragua.html">
+              <h3>Nicaragua</h3>
+              <p>Klicken Sie hier, um auf das Land zuzugreifen</p>
+            </a>
+          </div>
+        </estilos>
+        </estilos>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="socialMediaIcons">
+      <div class="wrapper">
+        <a href="https://www.facebook.com/CongregacionMita" target="_blank">
+          <div class="button">
+            <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+            <span>Facebook</span>
+          </div>
+        </a>
+
+        <a href="https://www.youtube.com/@CongregacionMitaInc/videos" target="_blank">
+          <div class="button">
+            <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+            <span>Youtube</span>
+          </div>
+        </a>
+
+        <a href="mailto:oots@congregacionmita.org">
+          <div class="button">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <span>Contacto</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+<div class="divider-icon" id="dividerIconFooter">
+      <p><img src="../Pagina_Principal/images/logo.png" /></p>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Gemeinde Mita Inc. Copyright © 2025 Alle Rechte vorbehalten. Geschäftsbedingungen</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

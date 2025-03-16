@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musikalische Gruppen</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../Pagina_Principal/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../Pagina_Principal/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../Pagina_Principal/favicon/favicon-16x16.png">
+  <link rel="manifest" href="Pagina_Principal/favicon/site.webmanifest">
+  <!-- Archico CSS principal -->
+  <link rel="stylesheet" href="./AgrupacionesMusicales.css">
+  <!-- Para iconos de Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Libreria Lightbox para las galerias de imagenes -->
+  <link rel="stylesheet" href="../lightbox/lightbox.css">
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y8B8LKVH7D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y8B8LKVH7D');
+</script>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <div class="container">
+      <input type="checkbox" name="" id="check">
+
+      <div class="logo-container">
+        <a href="../Pagina_Principal/index.html" class="logo"><img src="img/logo.png">Mita-Gemeinde </a>
+      </div>
+
+      <div class="nav-btn">
+        <div class="nav-links">
+          <ul>
+            <li class="nav-link" style="--i: .6s">
+              <a href="../Doctrina/doctrina.html">Über uns?</a>
+            </li>
+            <li class="nav-link" style="--i: .86s">
+              <a href="../Lideres_Espirituales/LideresEspirituales.html">Spirituelle Führer</a>
+              <!--<div class="dropdown">
+                <ul>
+                  <li class="dropdown-link">
+                    <a href="../Lideres_Espirituales/LideresEspirituales.html">Juanita García Peraza</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Lideres_Espirituales/LideresEspirituales.html">Teófilo Vargas Seín</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Lideres_Espirituales/LideresEspirituales.html">Rosinín Rodríguez Pérez</a>
+                  </li>
+                </ul>
+              </div>-->
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html">Musik <i
+                  class="fa-solid fa-caret-down"></i>
+              </a>
+              <div class="dropdown">
+                <ul>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#bv">Mita-Band</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#am">Musikalische Akademien</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#aa">Gruppierung von Harfen</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#ac">String-Gruppierung</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#acf">Gruppierung von gestrichenen
+                      Saiten</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#cm">Mita-Chor</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="../Paises/carrusel.html">Länder</a>
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="#">Mehr von uns<i class="fa-solid fa-caret-down i4"></i></a>
+              <div class="dropdown">
+                <ul>
+                  <li class="dropdown-link">
+                    <a href="../Templo principal/templo.html">Haupttempel</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Cuerpos_Ministeriales/CuerposMinisteriales.html">Ministerielle Gremien</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Obra_Social/ObraSocial.html">Sozialarbeit</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Niñez_y_Juventud/NiñezYJuventud.html">Kindheit und Jugend</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../Eventos_Historicos/EventosHistoricos.html">Historische Ereignisse</a>
+                  </li>
+
+                  <li class="dropdown-link">
+                    <a href="../Contacto/contacto.html">Kontaktiere uns</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-link" style="--i: 1.1s">
+              <a href="#"><i class="fa-solid fa-earth-americas" style="font-size: 20px; padding-top: 10px; "></i> <i
+                  class="fa-solid fa-caret-down i5"></i></a>
+              <div class="dropdown dropdown-idiomas">
+                <ul>
+                  <li class="dropdown-link">
+                    <a href="../../index.html">Español</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../ingles/Pagina_Principal/index.html">English</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../italiano/Pagina_Principal/index.html">Italiano</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="#">Deutsch</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../Portugues/Pagina_Principal/index.html">Português</a>
+                  </li>
+                  <li class="dropdown-link">
+                    <a href="../../frances/Pagina_Principal/index.html">Français</a>
+                  </li>
+                  <!--<li class="dropdown-link">
+                    <a href="#">日本</a>
+                  </li> -->
+                  <li class="dropdown-link">
+                    <a href="../../mandarin/Pagina_Principal/index.html">中国人</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hamburger-menu-container">
+        <div class="hamburger-menu">
+          <div></div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Contenido Principal -->
+
+  <div class="title">
+    <h1>Musikalische Gruppen</h1>
+  </div>
+
+  <section class="about" id="bv">
+    <div class="content">
+      <div class="text">
+        <h1>Mita-Band</h1>
+        <h5>1956 gegründet</h5>
+        <P>Die Banda de Mita de Puerto Rico besteht aus 130 Musikern. Er hat sich in verschiedenen hervorgetan
+          staatliche, bürgerliche, kulturelle, soziale Aktivitäten innerhalb und außerhalb des Landes. vertreten hat
+          Puerto Rico bei der puertoricanischen Parade in New York City, auf der Weltausstellung in Sevilla, Spanien und
+          bei unzähligen Aktivitäten sowohl in Puerto Rico als auch international. Ha gewann Auszeichnungen für ihre
+          Klangqualität, ihre Ausbildung und ihre Ausgehuniform.
+        </P>
+      </div>
+      <div class="bandCarousel">
+        <a href="../../Fotos/Banda de viento/3.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/3.jpg" class="mainPicture">
+        </a>
+      </div>
+      <h1 class="galleryH1">Galerie</h1><i class="fa-light fa-trumpet"></i>
+      <div class="galleryInfo">Berühren Sie das Foto, um mehr zu sehen</div>
+      <div class="gallery">
+        <a href="../../Fotos/a4.png" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/a4.png">
+        </a>
+        <a href="../../Fotos/Banda de viento/9.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/9.jpg">
+        </a>
+        <a href="../../Fotos/Banda de viento/4.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/4.jpg">
+        </a>
+        <a href="../../Fotos/Banda de viento/10.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/10.jpg">
+        </a>
+        <a href="../../Fotos/Banda de viento/7.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/7.jpg">
+        </a>
+        <a href="../../Fotos/Banda de viento/2.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/2.jpg">
+        </a>
+        <a href="../../Fotos/Banda de viento/6.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/6.jpg">
+        </a>
+        <a href="../../Fotos/Banda de viento/8.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/8.jpg">
+        </a>
+        <a href="../../Fotos/Banda de viento/11.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/11.jpg">
+        </a>
+        <a href="../../Fotos/Banda de viento/12.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Banda de viento/12.jpg">
+        </a>
+      </div>
+      <div class="SMLinkContainer">
+        <a href="https://www.facebook.com/BandaMita" target="_blank" class="SMLink"><i
+            class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider-icon">
+    <p><img src="./img/logo.png" /></p>
+  </div>
+
+  <section class="about" id="am">
+    <div class="content">
+      <div class="bandCarousel">
+        <a href="../../Fotos/Academias/89.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Academias/89.jpg" class="mainPicture">
+        </a>
+      </div>
+      <div class="text">
+        <h1>Musikalische Akademien</h1>
+        <P> Die Brüder der Kongregation, die Teil der Band oder einer anderen Gruppe sein möchten, treten ein Akademie,
+          um musikalisches Wissen von Fachleuten in der Region zu erhalten. Diese Kurse sind kostenlos und Musiklehrer
+          stellen sie in ihrer verfügbaren Zeit zur Verfügung. Die Schüler lernen das Solfage, Instrumental und
+          Aufführungstechniken entwickeln.
+        </P>
+      </div>
+      <h1 class="galleryH1">Galerie</h1><i class="fa-light fa-trumpet"></i>
+      <div class="galleryInfo">Berühren Sie das Foto, um mehr zu sehen</div>
+      <div class="gallery" id="amGallery">
+        <a href="../../Fotos/Academias/96.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Academias/96.jpg">
+        </a>
+        <a href="../../Fotos/Academias/97.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Academias/97.jpg">
+        </a>
+        <a href="../../Fotos/Academias/98.jpg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Academias/98.jpg">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider-icon">
+    <p><img src="./img/logo.png" /></p>
+  </div>
+
+  <section class="about" id="aa">
+    <div class="content">
+      <div class="text">
+        <h1>Gruppierung von Harfen</h1>
+        <h5>1986 gegründet</h5>
+        <P>Es ist die einzige Harfenvereinigung in Puerto Rico. Es genießt großes Ansehen in Puerto Rico; Ha nahm an
+          unzähligen staatlichen, bürgerlichen, sozialen und kulturellen Aktivitäten teil. Wir erhalten ständig Lob für
+          unsere Gruppe und Hunderte von Einladun gen zur Teilnahme bei verschiedenen Aktivitäten. Sie amtieren bei all
+          unseren Gottesdiensten und singen Kirchenlieder lobt Gott.
+        </P>
+      </div>
+      <div class="bandCarousel">
+        <a href="../../Fotos/Arpas/15.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Arpas/15.jpg" class="mainPicture">
+        </a>
+      </div>
+      <div class="SMLinkContainer" id="arpasFaceLink">
+        <a href="https://www.facebook.com/ArpasdeMita" target="_blank" class="SMLink"><i
+            class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider-icon">
+    <p><img src="./img/logo.png" /></p>
+  </div>
+
+  <section class="about" id="ac">
+    <div class="content">
+      <div class="bandCarousel">
+        <a href="../../Fotos/Cuerdas/16.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/16.jpg" class="mainPicture">
+        </a>
+      </div>
+      <div class="text">
+        <h1>String Gruppierung</h1>
+        <h5>1950 gegründet</h5>
+        <P>Sie hat derzeit 75 Mitglieder. Die Instrumente, die Teil dieser Gruppe sind, sind: Gitarre, p
+          uertoricanischer Cuatro, Requinto, Tiple, Mandoline, Kontrabass und Schlagzeug. Diese Gruppe musical hat an
+          verschiedenen kulturellen Aktivitäten teilgenommen und amtiert in allen unseren Gottesdiensten religiös.
+          Außerdem begleiten sie die Prediger in die verschiedenen Städte, die die Botschaft tragen Erlösung.</P>
+      </div>
+      <h1 class="galleryH1">Galerie</h1>
+      <div class="galleryInfo">Berühren Sie das Foto, um mehr zu sehen</div>
+      <div class="gallery">
+        <a href="../../Fotos/Cuerdas/78.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/78.jpg">
+        </a>
+        <a href="../../Fotos/Cuerdas/2003.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2003.jpeg">
+        </a>
+        <a href="../../Fotos/Cuerdas/2004.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2004.jpeg">
+        </a>
+        <a href="../../Fotos/Cuerdas/2007.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2007.jpeg">
+        </a>
+        <a href="../../Fotos/Cuerdas/2009.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2009.jpeg">
+        </a>
+        <a href="../../Fotos/Cuerdas/2010.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2010.jpeg">
+        </a>
+        <a href="../../Fotos/Cuerdas/2011.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2011.jpeg">
+        </a>
+        <a href="../../Fotos/Cuerdas/14.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/14.jpg">
+        </a>
+      </div>
+      <div class="SMLinkContainer">
+        <a href="https://www.facebook.com/bandadecuerdasdemita" target="_blank" class="SMLink"><i
+            class="fa-brands fa-facebook"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider-icon">
+    <p><img src="./img/logo.png" /></p>
+  </div>
+
+  <section class="about" id="acf">
+    <div class="content">
+      <div class="bandCarousel">
+        <a href="../../Fotos/Cuerdas/2006.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2006.jpeg" class="mainPicture">
+        </a>
+      </div>
+      <div class="text">
+        <h1>Gruppierung von Gestrichenen Saiten</h1>
+        <h5>2007 gegründet</h5>
+        <p>Wir haben eine 2007 gegründete Streichergruppe bestehend aus Geigen, Bratschen, Celli und Kontrabässen mit
+          ca. 25 Musikern.
+        </p>
+      </div>
+      <h1 class="galleryH1">Galerie</h1>
+      <div class="galleryInfo">Berühren Sie das Foto, um mehr zu sehen</div>
+      <div class="gallery">
+        <a href="../../Fotos/Cuerdas/2005.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2005.jpeg">
+        </a>
+        <a href="../../Fotos/Cuerdas/2008.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2008.jpeg">
+        </a>
+        <a href="../../Fotos/Cuerdas/2012.jpeg" data-lightbox="models"
+          data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Cuerdas/2012.jpeg">
+        </a>
+  </section>
+
+  <div class="divider-icon">
+    <p><img src="./img/logo.png" /></p>
+  </div>
+
+  <section class="about" id="cm">
+    <div class="content">
+      <div class="text">
+        <h1>Mita-Chor</h1>
+        <h5>1990 gegründet</h5>
+        <P>Er besteht aus 25 jungen und erwachsenen Mitgliedern, die in den Gottesdiensten des Ordens tätig sind
+          Gemeinde mit Lobeshymnen auf Gott. Sie sind in folgende Stimmen gruppi ert: Soprane, Alt, Tenor und Bass.
+          Regelmäßig bieten sie zur Freude der Gemeinde Konzerte an allgemein.
+        </P>
+      </div>
+      <div class="bandCarousel">
+        <a href="../../Fotos/Coro/88.jpg" data-lightbox="models" data-title="Izquierda anterior - Derecha siguiente">
+          <img src="../../Fotos/Coro/88.jpg" class="mainPicture">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="socialMediaIcons">
+      <div class="wrapper">
+        <a href="https://www.facebook.com/CongregacionMita" target="_blank">
+          <div class="button">
+            <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+            <span>Facebook</span>
+          </div>
+        </a>
+
+        <a href="https://www.youtube.com/@CongregacionMitaInc/videos" target="_blank">
+          <div class="button">
+            <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+            <span>Youtube</span>
+          </div>
+        </a>
+
+        <a href="mailto:oots@congregacionmita.org">
+          <div class="button">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <span>Contacto</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="divider-icon" id="dividerIconFooter">
+      <p><img src="./img/logo.png" /></p>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Gemeinde Mita Inc. Copyright © 2025 Alle Rechte vorbehalten. Geschäftsbedingungen</p>
+    </div>
+  </footer>
+
+  <!-- Para los iconos -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Script -->
+  <script src="./AgrupacionesMusicales.js"></script>
+  <script src="../lightbox/lightbox-plus-jquery.js"></script>
+</body>
+
+</html>
